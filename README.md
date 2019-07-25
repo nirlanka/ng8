@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
 
+## Project generation
+
+Project generated using:
+
+```
+$appname="ng8";
+ng new $appname --prefix=$appname --enableIvy=true --inlineStyle=true --inlineTemp
+late=true --skipTests=true --routing=true --skipInstall=true --style=sass
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
